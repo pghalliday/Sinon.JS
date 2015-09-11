@@ -1,5 +1,6 @@
 {
   "name": "sinon",
+  "private": true,
   "description": "JavaScript test spies, stubs and mocks.",
   "version": "1.16.1",
   "homepage": "http://sinonjs.org/",
