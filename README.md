@@ -1,5 +1,12 @@
 # Sinon.JS
 
+# NB. this is a fork that I created so that I could depend on work that is currently in development
+
+I changed some stuff to use bundler and commit the pkg directory so that I can depend on my git repo
+
+to rebuild: `npm run build`
+
+
 [![Build status](https://secure.travis-ci.org/cjohansen/Sinon.JS.svg?branch=master)](http://travis-ci.org/cjohansen/Sinon.JS)
 
 Standalone and test framework agnostic JavaScript test spies, stubs and mocks.

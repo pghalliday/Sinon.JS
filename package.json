@@ -1,5 +1,5 @@
 {
-  "name": "sinon",
+  "name": "sinon-pghalliday-fork",
   "description": "JavaScript test spies, stubs and mocks.",
   "version": "1.16.1",
   "homepage": "http://sinonjs.org/",
@@ -17,7 +17,8 @@
     "ci-test": "npm run lint && ./scripts/ci-test.sh",
     "test": "./scripts/ci-test.sh",
     "lint": "$(npm bin)/eslint .",
-    "prepublish": "./build",
+    "build": "bundle exec ./build",
+    "prepublish": "npm run build",
     "eslint-pre-commit": "./scripts/eslint-pre-commit"
   },
   "pre-commit": [
